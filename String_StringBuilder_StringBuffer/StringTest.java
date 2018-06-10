@@ -32,4 +32,12 @@ public class StringTest {
 		y = yBuff.toString();
 		System.out.println("Time_3: "+(System.nanoTime() - startTime3));
 	}
+	
+	/* 
+	StringBuffer - również klasa do modyfikowania ciągów znakó.
+	Posiada ona identyczne metody jak StringBuilder i na pierwszy rzut oka nie widać między nimi 
+	żadnej różnicy, ponieważ jest ona dosyć subtelna - StringBuffer jest klasą synchronizowaną, 
+	natomiast StringBuilder nie jest (zatem powoduje to jeszcze dodatkowe przyspieszenie, 
+	na poziomie programów jednowątkowych jest najlepszym rozwiązaniem).
+	*/
 }
