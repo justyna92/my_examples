@@ -34,7 +34,7 @@ public class StringTest {
 	}
 	
 	/* 
-	StringBuffer - również klasa do modyfikowania ciągów znakó.
+	StringBuffer - również klasa do modyfikowania ciągów znaków.
 	Posiada ona identyczne metody jak StringBuilder i na pierwszy rzut oka nie widać między nimi 
 	żadnej różnicy, ponieważ jest ona dosyć subtelna - StringBuffer jest klasą synchronizowaną, 
 	natomiast StringBuilder nie jest (zatem powoduje to jeszcze dodatkowe przyspieszenie, 
